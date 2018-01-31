@@ -1,8 +1,3 @@
-# 多因子选股(股票) 
-基于Fama三因子构成的多因子策略
-
-## 源码
-```python
 # coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 import numpy as np
@@ -171,7 +166,3 @@ if __name__ == '__main__':
         backtest_initial_cash=10000000,
         backtest_commission_ratio=0.0001,
         backtest_slippage_ratio=0.0001)
-```
-
-## 绩效图
-![绩效图](attach.png)
